@@ -1,4 +1,4 @@
-name: mongo-sharding-repl
+name: sharding-repl-cache
 services:
   # mongodb1:
   #   container_name: mongodb1
