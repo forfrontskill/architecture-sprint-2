@@ -1,9 +1,13 @@
+Итоговый файл схемы:
+[Файл DrawIO со скетчем архитектуры](/task1.drawio)
+
+
 # pymongo-api
 
 ## Как запустить
+В каждом этапе mongo-sharding, mongo-sharding-repl, sharding-repl-cache выполнить следующие процедуры запуска:
 
 Запускаем mongodb и приложение
-
 ```shell
 docker compose up -d
 ```
@@ -13,6 +17,7 @@ docker compose up -d
 ```shell
 ./scripts/mongo-init.sh
 ```
+В случае ошибки "MongoNetworkError: connect ECONNREFUSED 127.0.0.1:27020" повторить запуск скрипта.
 
 ## Как проверить
 
