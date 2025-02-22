@@ -7,6 +7,11 @@
 ## Как запустить
 В каждом этапе mongo-sharding, mongo-sharding-repl, sharding-repl-cache выполнить следующие процедуры запуска:
 
+Удаляем контейнеры и диски, которые содержат информацию о прошлых конфигурациях
+```shell
+./scripts/clear-docker.sh
+```
+
 Запускаем mongodb и приложение
 ```shell
 docker compose up -d
