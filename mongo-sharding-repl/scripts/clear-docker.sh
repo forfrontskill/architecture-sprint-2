@@ -1,0 +1,1 @@
+docker compose -p mongo-sharding-repl down --volumes
